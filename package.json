@@ -9,7 +9,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js", // Command to start your application
+    "dev": "nodemon index.js", // Command for local development
+    "test": "echo \"Error: no test specified\" && exit 1", // Placeholder for tests
+    "build": "echo 'No build step defined' && exit 0" // Placeholder if no build step is needed
+  },
+    
   },
   "keywords": [],
   "author": "",
