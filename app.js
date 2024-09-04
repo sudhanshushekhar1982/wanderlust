@@ -24,7 +24,7 @@ const cookie = require("express-session/session/cookie.js");
 const { error } = require('console');
 
 // const MONGO_URL = "mongodb://127.0.0.1:27017/test";
-const dbUrl = mongodb+srv://Anti_Virus:x3N1jHN5vRyoNyXt@cluster0.w1dfn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
+const dbUrl = "mongodb+srv://Anti_Virus:x3N1jHN5vRyoNyXt@cluster0.w1dfn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 main()
  .then(() => {
