@@ -1,9 +1,7 @@
 {
-
   "engines": {
     "node": "20.15.0"
   },
-
   "name": "majorproject",
   "version": "1.0.0",
   "description": "",
@@ -13,8 +11,6 @@
     "dev": "nodemon index.js", // Command for local development
     "test": "echo \"Error: no test specified\" && exit 1", // Placeholder for tests
     "build": "echo 'No build step defined' && exit 0" // Placeholder if no build step is needed
-  },
-    
   },
   "keywords": [],
   "author": "",
